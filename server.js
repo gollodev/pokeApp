@@ -1,6 +1,6 @@
 var express = require('express')
    , app    = express()
-   , path	= require('path');
+   , path   = require('path');
 
 app.set('port', process.env.PORT || 3000);
 
