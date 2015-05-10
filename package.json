@@ -1,0 +1,35 @@
+{
+  "name": "pokeApp",
+  "version": "1.0.0",
+  "description": "AngularJS App using pokeapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gollodev/pokeApp.git"
+  },
+  "keywords": [
+    "angularjs",
+    "js",
+    "javascript",
+    "api",
+    "rest",
+    "pokemon",
+    "app"
+  ],
+  "author": "Jose Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gollodev/pokeApp/issues"
+  },
+  "homepage": "https://github.com/gollodev/pokeApp",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "grunt": "^0.4.5"
+  }
+}
