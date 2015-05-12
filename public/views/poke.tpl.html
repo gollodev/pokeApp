@@ -1,0 +1,46 @@
+<div class="row">		
+	<div class="col s12">
+		<table class="bordered hoverable centered">
+		    <thead>
+		        <tr>
+		            <th data-field="id">Pokemon Name</th>
+		            <th data-field="name">Attack</th>
+		            <th data-field="price">Defense</th>
+		            <th data-field="price">HP</th>
+		            <th data-field="price">Speed</th>
+		            <th data-field="price">Height</th>
+		            <th data-field="price">Exp</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		        <tr ng-repeat="rattata in rattatas ">
+		          <td>{{ rattata.name }}</td>
+		          <td>{{ rattata.attack }}</td>
+		          <td>{{ rattata.defense }}</td>
+		          <td>{{ rattata.hp }}</td>
+		          <td>{{ rattata.speed }}</td>
+		          <td>{{ rattata.height }}</td>
+		          <td>{{ rattata.exp }}</td>
+		        </tr>
+		        <tr ng-repeat="charmander in charmanders">
+		          <td>{{ charmander.name }}</td>
+		          <td>{{ charmander.attack }}</td>
+		          <td>{{ charmander.defense }}</td>
+		          <td>{{ charmander.hp }}</td>
+		          <td>{{ charmander.speed }}</td>
+		          <td>{{ charmander.height }}</td>
+		          <td>{{ charmander.exp }}</td>
+		        </tr>
+		        <tr ng-repeat="wartortle in wartortles">
+		          <td>{{ wartortle.name }}</td>
+		          <td>{{ wartortle.attack }}</td>
+		          <td>{{ wartortle.defense }}</td>
+		          <td>{{ wartortle.hp }}</td>
+		          <td>{{ wartortle.speed }}</td>
+		          <td>{{ wartortle.height }}</td>
+		          <td>{{ wartortle.exp }}</td>
+		        </tr>
+		    </tbody>
+		</table>
+	</div>
+</div>    
