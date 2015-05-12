@@ -356,7 +356,7 @@
 			bellsprout: function () {
 				return $http({
 				  	method: 'GET', 
-				   	url: API.bellsproutsquirtle
+				   	url: API.bellsprout
 				})			           						        
 			},		
 
