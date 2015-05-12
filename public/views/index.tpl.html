@@ -16,36 +16,7 @@
       	<span class="white-text">only for pokemon coaches :)</span>
       </div>		
     </div>
-	<div class="row" ng-controller="pokeController">		
-		<div class="col s12">
-			<table class="bordered hoverable centered">
-		        <thead>
-		          <tr>
-		              <th data-field="id">Name</th>
-		              <th data-field="name">Item Name</th>
-		              <th data-field="price">Item Price</th>
-		          </tr>
-		        </thead>
-		        <tbody>
-		          <tr>
-		            <td>Jose</td>
-		            <td>Eclair</td>
-		            <td>$0.87</td>
-		          </tr>
-		          <tr>
-		            <td>Alan</td>
-		            <td>Jellybean</td>
-		            <td>$3.76</td>
-		          </tr>
-		          <tr>
-		            <td>Jonathan</td>
-		            <td>Lollipop</td>
-		            <td>$7.00</td>
-		          </tr>
-		        </tbody>
-		    </table>
-		</div>
-	</div>    
+	<div ui-view></div>
     	
 
 	<script src="../lib/angular/angular.min.js"></script>
@@ -53,8 +24,6 @@
 	<script src="../lib/jquery/dist/jquery.min.js"></script>
 	<script src="../lib/materialize/dist/js/materialize.min.js"></script>
 	<script src="../poke-app.js"></script>
-	<script src="../scripts/api.js"></script>
-	<script src="../scripts/poke.ctrl.js"></script>
-	<script src="../scripts/poke.srv.js"></script>
+
 </body>
 </html>

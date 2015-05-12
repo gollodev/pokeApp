@@ -199,9 +199,64 @@
 	// golem
 	.constant('golem', url + 'api/v1/pokemon/76/')
 
+	// ponyta
+	.constant('ponyta', url + 'api/v1/pokemon/77/')
 
+	// rapidash
+	.constant('rapidash', url + 'api/v1/pokemon/78/')
 
+	// slowbro
+	.constant('slowbro', url + 'api/v1/pokemon/80/')
 
+	// grimer
+	.constant('grimer', url + 'api/v1/pokemon/88/')
 
+	// farfetchd
+	.constant('farfetchd', url + 'api/v1/pokemon/83/')
+
+	// magnemite
+	.constant('magnemite', url + 'api/v1/pokemon/81/')
+
+	// magneton
+	.constant('magneton', url + 'api/v1/pokemon/82/')
+
+	// doduo
+	.constant('doduo', url + 'api/v1/pokemon/84/')
+
+	// seel
+	.constant('seel', url + 'api/v1/pokemon/86/')
+
+	// dodrio
+	.constant('dodrio', url + 'api/v1/pokemon/85/')
+
+	// dewgong
+	.constant('dewgong', url + 'api/v1/pokemon/87/')
+
+	// gastly
+	.constant('gastly', url + 'api/v1/pokemon/92/')
+
+	// cloyster
+	.constant('cloyster', url + 'api/v1/pokemon/91/')
+
+	// muk
+	.constant('muk', url + 'api/v1/pokemon/89/')
+
+	// krabby
+	.constant('krabby', url + 'api/v1/pokemon/98/')
+
+	// haunter
+	.constant('haunter', url + 'api/v1/pokemon/93/')
+
+	// gengar
+	.constant('gengar', url + 'api/v1/pokemon/94/')
+
+	// onix
+	.constant('onix', url + 'api/v1/pokemon/95/')
+
+	// drowzee
+	.constant('drowzee', url + 'api/v1/pokemon/96/')
+
+	// hypno
+	.constant('hypno', url + 'api/v1/pokemon/97/')
 
 })(angular);

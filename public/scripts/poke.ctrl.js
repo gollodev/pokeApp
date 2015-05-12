@@ -3,18 +3,15 @@
 
 	angular.module('pokeApp')
 
-	.controller('pokeController', ['pokeFactory', '$scope', pokeController]);
+	.controller('pokeController', ['$scope', 'getPokemons', pokeController]);
 
-	function pokeController (pokeFactory, $scope) {
+	function pokeController ($scope, getPokemons) {
 
-		$scope.damePokemones = function () {
-			pokeFactory.getPokedex()
-			.then(function (data) {
-				console.log(data);
-				$scope.pokemones = data;
-			}, function (error) {
-				console.log(error);
-			});
-		}
+		getPokemons.then(function (data) {
+			console.log(data)
+		}, function (error) {
+			console.log(error)
+		})
+		
 	};
 })(angular);

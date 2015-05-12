@@ -4,11 +4,11 @@
 	angular.module('pokeApp')
 	.factory('pokeFactory', ['pokedex', '$http', pokeFactory]);
 
-	function pokeFactory (pokedex, $http) {
+	function pokeFactory (rattata, $http) {
 		var _getPokedex = function () {
 			return $http({
 				method: 'get',
-				url: pokedex
+				url: rattata
 			})
 		}
 		return {
