@@ -1,12 +1,10 @@
 (function (angular, undefined) {
 	'use strict';
 
-	angular.module('pokeApp')
+	angular.module('pokeApp')	
+	.controller('PokeController', ['$scope', 'getPokemons', PokeControllerConstructor]);
 
-	.controller('pokeController', ['$scope', 'getPokemons', pokeController]);
-
-	function pokeController ($scope, getPokemons) {
-		
+	function PokeControllerConstructor ($scope, getPokemons) {
 		getPokemons.rattata().then(function (data) {
 			console.log(data)
 			$scope.rattatas = data;						
@@ -163,14 +161,14 @@
 
 		getPokemons.vulpix().then(function (data) {
 			console.log(data)
-			$scope.vulpix = data;						
+			$scope.vulpixes = data;						
 		}, function (error) {
 			console.log(error)
 		});	
 
 		getPokemons.ninetales().then(function (data) {
 			console.log(data)
-			$scope.ninetales = data;						
+			$scope.ninetaleses = data;						
 		}, function (error) {
 			console.log(error)
 		});	
@@ -191,7 +189,7 @@
 
 		getPokemons.meowth().then(function (data) {
 			console.log(data)
-			$scope.meowthsoddish = data;						
+			$scope.meowths = data;						
 		}, function (error) {
 			console.log(error)
 		});	
@@ -415,14 +413,14 @@
 
 		getPokemons.dewgong().then(function (data) {
 			console.log(data)
-			$scope.dewgong = data;						
+			$scope.dewgongs = data;						
 		}, function (error) {
 			console.log(error)
 		});	
 
 		getPokemons.gastly().then(function (data) {
 			console.log(data)
-			$scope.gastly = data;						
+			$scope.gastlys = data;						
 		}, function (error) {
 			console.log(error)
 		});	
@@ -481,7 +479,6 @@
 			$scope.hypnos = data;						
 		}, function (error) {
 			console.log(error)
-		});	
-
+		});			
 	};
 })(angular);
