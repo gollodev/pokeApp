@@ -2,11 +2,9 @@
 	'user strict';
 
 	angular.module('pokeApp')
-	.factory('pokeFactory', ['$http', 'API', pokeFactory]);
+	.factory('PokeFactory', ['$http', 'API', PokeFactoryContructor]);
 
-	function pokeFactory ($http, API) {
-		var url = 'http://pokeapi.co/';
-		           
+	function PokeFactoryContructor ($http, API) {
 		return {
 		    // GET rattata 
 			rattata: function () {
