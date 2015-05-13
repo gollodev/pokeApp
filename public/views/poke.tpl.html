@@ -1,5 +1,5 @@
 <div class="row">		
-	<div class="col s12">
+	<div class="col s12">		   
 		<table class="striped centered">
 		    <thead>
 		        <tr>
@@ -9,11 +9,11 @@
 		            <th data-field="price">HP</th>
 		            <th data-field="price">Speed</th>
 		            <th data-field="price">Height</th>
-		            <th data-field="price">Exp</th>
+		            <th data-field="price">Exp</th>		            
 		        </tr>
 		    </thead>
-		    <tbody>
-		        <tr ng-repeat="rattata in rattatas ">
+		    <tbody>				     
+				<tr ng-repeat="rattata in rattatas">
 		          <td>{{ rattata.name }}</td>
 		          <td>{{ rattata.attack }}</td>
 		          <td>{{ rattata.defense }}</td>
@@ -22,7 +22,7 @@
 		          <td>{{ rattata.height }}</td>
 		          <td>{{ rattata.exp }}</td>
 		        </tr>
-		        <tr ng-repeat="charmander in charmanders">
+		        <tr ng-repeat="charmander in charmanders | filter:userInput">
 		          <td>{{ charmander.name }}</td>
 		          <td>{{ charmander.attack }}</td>
 		          <td>{{ charmander.defense }}</td>
