@@ -1,16 +1,16 @@
 (function (angular, undefined) {
 	'use strict'
-
-	angular.module('pokeApp', ['ui.router'])
+	
+	angular.module('pokeApp', ['ui.router', 'ngAnimate'])
 	.config(function ($stateProvider, $urlRouterProvider) {
-		$urlRouterProvider.otherwise('/index')
+		$urlRouterProvider.otherwise('/index')		
 		$stateProvider.state('home', {
 			resolve: {
-				getPokemons: 'pokeFactory'	
+				getPokemons: 'PokeFactory'	
 			},
-			controller: 'pokeController',						
+			controller: 'PokeController',						
 			url: '/index',
-			templateUrl: '/views/poke.tpl.html'	
-		})
+			templateUrl: '/views/poke.tpl.html'				
+		})		
 	})	
 })(angular);
