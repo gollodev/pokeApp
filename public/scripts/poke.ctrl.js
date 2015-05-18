@@ -1,12 +1,31 @@
 (function (angular, undefined) {
 	'use strict';
 
-	angular.module('pokeApp')	
-	.controller('PokeController', ['$scope', 'getPokemons', PokeControllerConstructor]);
+	/**
+	* Define Module pokeApp
+	*/
+	angular.module('pokeApp')
 
-	function PokeControllerConstructor ($scope, getPokemons) {
+	/**
+	* Define Controller PokeController
+	*/
+	.controller('PokeController', PokeControllerFn)
+
+	/**
+	* [$inject dependencies safe for minified]
+ 	* @type {Array}
+	*/
+	PokeControllerFn.$inject = ['$scope', 'getPokemons'];
+
+	/**
+	* [PokeControllerFn function get pokemons from PokeFactory]
+	* @param {[type]} $scope      [scope model]
+	* @param {[type]} getPokemons [dependency service]
+	*/
+	function PokeControllerFn ($scope, getPokemons) {		
+
 		getPokemons.rattata().then(function (data) {
-			console.log(data)
+			console.log(data)							
 			$scope.rattatas = data;						
 		}, function (error) {
 			console.log(error)
@@ -14,14 +33,14 @@
 
 		getPokemons.charmander().then(function (data) {
 			console.log(data)
-			$scope.charmanders = data;						
+			$scope.charmanders = data;							
 		}, function (error) {
 			console.log(error)
 		});	
 
 		getPokemons.wartortle().then(function (data) {
 			console.log(data)
-			$scope.wartortles = data;						
+			$scope.wartortles = data;								
 		}, function (error) {
 			console.log(error)
 		});	
