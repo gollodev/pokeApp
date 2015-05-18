@@ -12,8 +12,8 @@
 		            <th data-field="price">Exp</th>		            
 		        </tr>
 		    </thead>
-		    <tbody>				     
-				<tr ng-repeat="rattata in rattatas">
+		    <tbody>
+		    	<tr ng-repeat="rattata in rattatas">
 		          <td>{{ rattata.name }}</td>
 		          <td>{{ rattata.attack }}</td>
 		          <td>{{ rattata.defense }}</td>
@@ -22,7 +22,7 @@
 		          <td>{{ rattata.height }}</td>
 		          <td>{{ rattata.exp }}</td>
 		        </tr>
-		        <tr ng-repeat="charmander in charmanders | filter:userInput">
+		        <tr ng-repeat="charmander in charmanders">
 		          <td>{{ charmander.name }}</td>
 		          <td>{{ charmander.attack }}</td>
 		          <td>{{ charmander.defense }}</td>
@@ -39,7 +39,7 @@
 		          <td>{{ wartortle.speed }}</td>
 		          <td>{{ wartortle.height }}</td>
 		          <td>{{ wartortle.exp }}</td>
-		        </tr>
+		        </tr>			        
 		        <tr ng-repeat="caterpie in caterpies">
 		          <td>{{ caterpie.name }}</td>
 		          <td>{{ caterpie.attack }}</td>
