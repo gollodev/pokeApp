@@ -1,10 +1,28 @@
 (function (angular, undefined) {
 	'user strict';
 
+	/**
+	* Define Module pokeApp
+	*/
 	angular.module('pokeApp')
-	.factory('PokeFactory', ['$http', 'API', PokeFactoryContructor]);
 
-	function PokeFactoryContructor ($http, API) {
+	/**
+	* Define Service PokeFactoryFn
+	*/
+	.factory('PokeFactory', PokeFactoryFn)
+
+	/**
+	* [$inject dependencies safe for minified]
+ 	* @type {Array}
+	*/
+	PokeFactoryFn.$inject = ['$http', 'API']; 
+
+	/**
+	 * [PokeFactoryFn function a consuming API]
+	 * @param {[type]} $http [http service]
+	 * @param {[type]} API   [api rest pokemon]
+	 */
+	function PokeFactoryFn ($http, API) {
 		return {
 		    // GET rattata 
 			rattata: function () {
@@ -552,3 +570,4 @@
 		}	
 	};
 })(angular);
+
