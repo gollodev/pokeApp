@@ -1,2 +1,2 @@
 # pokeApp
-AngularJS App using pokeapi
+####Consuming API REST as AngularJS Client from http://pokeapi.co/
