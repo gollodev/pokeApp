@@ -9,7 +9,7 @@
 	/**
 	* Define Service PokeFactoryFn
 	*/
-	.factory('PokeFactory', PokeFactoryFn)
+	.factory('PokeFactory', PokeFactoryFn);
 
 	/**
 	* [$inject dependencies safe for minified]
@@ -29,7 +29,7 @@
 			    return $http({
 			        method: 'GET', 
 			        url: API.rattata
-			    })			           						        
+			    });			           						        
 			},
 
 			// GET charmander
@@ -37,7 +37,7 @@
 			    return $http({
 				    method: 'GET', 
 				    url: API.charmander
-			    })			           						        
+			    });			           						        
 			},
 
 			// GET wartortle
@@ -45,7 +45,7 @@
 				return $http({
 				  	method: 'GET', 
 				  	url: API.wartortle
-				})			           						        
+				});			           						        
 			},
 
 			// GET blastoise
@@ -53,7 +53,7 @@
 				return $http({
 					method: 'GET', 
 					url: API.blastoise
-				})			           						        
+				});			           						        
 			},
 
 			// GET caterpie
@@ -61,7 +61,7 @@
 				return $http({
 					method: 'GET', 
 					url: API.caterpie
-				})			           						        
+				});			           						        
 			},
 
 			// GET metapod
@@ -69,7 +69,7 @@
 				return $http({
 					method: 'GET', 
 					url: API.metapod
-				})			           						        
+				});			           						        
 			},
 
 			// GET butterfree
@@ -77,7 +77,7 @@
 				return $http({
 					method: 'GET', 
 					url: API.butterfree
-				})			           						        
+				});			           						        
 			},
 
 			// GET spearow
@@ -85,7 +85,7 @@
 				return $http({
 					method: 'GET', 
 					url: API.spearow
-				})			           						        
+				});			           						        
 			},
 
 			// GET kakuna
@@ -93,7 +93,7 @@
 				return $http({
 					method: 'GET', 
 					url: API.kakuna
-				})			           						        
+				});			           						        
 			},
 
 			// GET beedrill
@@ -101,7 +101,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.beedrill
-				})			           						        
+				});			           						        
 			},
 
 			// GET pidgey
@@ -109,7 +109,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.pidgey
-				})			           						        
+				});			           						        
 			},	
 
 			// GET raticate
@@ -117,7 +117,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.raticate
-				})			           						        
+				});			           						        
 			},	
 
 			// GET fearow
@@ -125,7 +125,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.fearow
-				})			           						        
+				});			           						        
 			},	
 
 			// GET pikachu
@@ -133,7 +133,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.pikachu
-				})			           						        
+				});			           						        
 			},	
 
 			// GET arbok
@@ -141,7 +141,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.arbok
-				})			           						        
+				});			           						        
 			},	
 
 			// GET ekans
@@ -149,7 +149,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.ekans
-				})			           						        
+				});			           						        
 			},	
 
 			// GET nidorina
@@ -157,7 +157,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.nidorina
-				})			           						        
+				});			           						        
 			},
 
 			// GET sandshrew
@@ -165,7 +165,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.sandshrew
-				})			           						        
+				});			           						        
 			},	
 
 			// GET nidoranm
@@ -173,7 +173,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.nidoranm
-				})			           						        
+				});			           						        
 			},	
 
 			// GET nidoranf
@@ -181,7 +181,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.nidoranf
-				})			           						        
+				});		           						        
 			},	
 
 			// GET clefabe
@@ -189,7 +189,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.clefabe
-				})			           						        
+				});			           						        
 			},	
 
 			// GET jigglypuff
@@ -197,7 +197,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.jigglypuff
-				})			           						        
+				});			           						        
 			},	
 
 			// GET vulpix
@@ -205,7 +205,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.vulpix
-				})			           						        
+				});			           						        
 			},	
 
 			// GET ninetales
@@ -213,7 +213,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.ninetales
-				})			           						        
+				});			           						        
 			},	
 
 			// GET zubat
@@ -221,7 +221,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.zubat
-				})			           						        
+				});			           						        
 			},	
 
 			// GET venonat
@@ -229,7 +229,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.venonat
-				})			           						        
+				});			           						        
 			},	
 
 			// GET meowth
@@ -237,7 +237,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.meowth
-				})			           						        
+				});			           						        
 			},	
 
 			// GET oddish
@@ -245,7 +245,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.oddish
-				})			           						        
+				});			           						        
 			},	
 
 			// GET gloom
@@ -253,7 +253,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.gloom
-				})			           						        
+				});			           						        
 			},	
 
 			// GET vileplume
@@ -261,7 +261,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.vileplume
-				})			           						        
+				});			           						        
 			},	
 
 			// GET paras
@@ -269,7 +269,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.paras
-				})			           						        
+				});			           						        
 			},
 
 			// GET parasect
@@ -277,7 +277,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.parasect
-				})			           						        
+				});			           						        
 			},		
 
 			// GET venomoth
@@ -285,7 +285,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.venomoth
-				})			           						        
+				});			           						        
 			},		
 
 			// GET diglett
@@ -293,7 +293,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.diglett
-				})			           						        
+				});			           						        
 			},		
 
 			// GET dugtrio
@@ -301,7 +301,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.dugtrio
-				})			           						        
+				});			           						        
 			},		
 
 			// GET persian
@@ -309,7 +309,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.persian
-				})			           						        
+				});			           						        
 			},		
 
 			// GET psyduck
@@ -317,7 +317,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.psyduck
-				})			           						        
+				});			           						        
 			},		
 
 			// GET mankey
@@ -325,7 +325,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.mankey
-				})			           						        
+				});			           						        
 			},		
 
 			// GET growlithe
@@ -333,7 +333,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.growlithe
-				})			           						        
+				});			           						        
 			},		
 
 			// GET arcanine
@@ -341,7 +341,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.arcanine
-				})			           						        
+				});			           						        
 			},		
 
 			// GET poliwag
@@ -349,7 +349,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.poliwag
-				})			           						        
+				});			           						        
 			},		
 
 			// GET abra
@@ -357,7 +357,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.abra
-				})			           						        
+				});			           						        
 			},		
 
 			// GET machop
@@ -365,7 +365,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.machop
-				})			           						        
+				});			           						        
 			},		
 
 			// GET bellsprout
@@ -373,7 +373,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.bellsprout
-				})			           						        
+				});			           						        
 			},		
 
 			// GET ivysaur
@@ -381,7 +381,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.ivysaur
-				})			           						        
+				});			           						        
 			},		
 
 			// GET squirtle
@@ -389,7 +389,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.squirtle
-				})			           						        
+				});			           						        
 			},		
 
 			// GET weedle
@@ -397,7 +397,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.weedle
-				})			           						        
+				});			           						        
 			},		
 
 			// GET graveler
@@ -405,7 +405,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.graveler
-				})			           						        
+				});			           						        
 			},
 
 			// GET geodude
@@ -413,7 +413,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.geodude
-				})			           						        
+				});			           						        
 			},	
 
 			// GET ponyta
@@ -421,7 +421,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.ponyta
-				})			           						        
+				});			           						        
 			},	
 
 			// GET rapidash
@@ -429,7 +429,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.rapidash
-				})			           						        
+				});			           						        
 			},		
 
 			// GET slowbro
@@ -437,7 +437,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.slowbro
-				})			           						        
+				});			           						        
 			},	
 
 			// GET grimer
@@ -445,7 +445,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.grimer
-				})			           						        
+				});			           						        
 			},	
 
 			// GET farfetchd
@@ -453,7 +453,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.farfetchd
-				})			           						        
+				});			           						        
 			},	
 
 			// GET magnemite
@@ -461,7 +461,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.magnemite
-				})			           						        
+				});			           						        
 			},	
 
 			// GET doduo
@@ -469,7 +469,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.doduo
-				})			           						        
+				});			           						        
 			},	
 
 			// GET seel
@@ -477,7 +477,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.seel
-				})			           						        
+				});			           						        
 			},	
 
 			// GET dodrio
@@ -485,7 +485,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.dodrio
-				})			           						        
+				});			           						        
 			},	
 
 			// GET dewgong
@@ -493,7 +493,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.dewgong
-				})			           						        
+				});			           						        
 			},	
 
 			// GET gastly
@@ -501,7 +501,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.gastly
-				})			           						        
+				});			           						        
 			},	
 
 			// GET cloyster
@@ -509,7 +509,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.cloyster
-				})			           						        
+				});			           						        
 			},
 
 			// GET muk
@@ -517,7 +517,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.muk
-				})			           						        
+				});			           						        
 			},
 
 			// GET krabby
@@ -525,7 +525,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.krabby
-				})			           						        
+				});			           						        
 			},
 
 			// GET haunter
@@ -533,7 +533,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.haunter
-				})			           						        
+				});			           						        
 			},
 
 			// GET gengar
@@ -541,7 +541,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.gengar
-				})			           						        
+				});			           						        
 			},
 
 			// GET onix
@@ -549,7 +549,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.onix
-				})			           						        
+				});			           						        
 			},
 
 			// GET drowzee
@@ -557,7 +557,7 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.drowzee
-				})			           						        
+				});			           						        
 			},
 
 			// GET hypno
@@ -565,9 +565,9 @@
 				return $http({
 				  	method: 'GET', 
 				   	url: API.hypno
-				})			           						        
+				});			           						        
 			}							           
-		}	
-	};
+		};
+	}
 })(angular);
 
