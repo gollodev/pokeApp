@@ -1,6 +1,6 @@
 var express = require('express'),
 	app  	= express(),
-	fs 		= require('fs'),
+	fs 	= require('fs'),
 	path	= require('path');
 
 app.set('port', process.env.PORT || 3000);
