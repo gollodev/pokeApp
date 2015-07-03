@@ -1,4 +1,4 @@
-(function (angular, undefined) {
+(function() {
 	'user strict';
 
 	/**
@@ -569,5 +569,5 @@
 			}							           
 		};
 	}
-})(angular);
+})();
 
