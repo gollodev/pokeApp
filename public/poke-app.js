@@ -1,4 +1,4 @@
-(function (angular, undefined) {
+(function() {
 	'use strict';
 	
 	angular.module('pokeApp', ['ui.router', 'ngAnimate'])
@@ -20,4 +20,4 @@
 		  requireBase: false
 		});
 	}
-})(angular);
+})();
