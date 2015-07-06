@@ -1,4 +1,4 @@
-(function (angular, undefined) {
+(function () {
 	'user strict';	
 	
 	var url = 'http://pokeapi.co/';
@@ -74,4 +74,4 @@
 		  ,	drowzee: 	url + 'api/v1/pokemon/96/'	
 		  ,	hypno: 		url + 'api/v1/pokemon/97/'	
 		});
-})(angular);
+})();
