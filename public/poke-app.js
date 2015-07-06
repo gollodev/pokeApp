@@ -1,4 +1,4 @@
-(function (angular, undefined) {
+(function() {
 	'use strict';
 	
 	angular.module('pokeApp', ['ui.router', 'ngAnimate', 'ngMaterial'])
@@ -22,4 +22,4 @@
 
 		$mdThemingProvider.theme('default').primaryPalette('red');
 	}
-})(angular);
+})();
