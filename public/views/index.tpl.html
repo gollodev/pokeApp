@@ -3,26 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PokeApp</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-
-	<link rel="stylesheet" href="../lib/materialize/dist/css/materialize.min.css" media="screen,projection"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>	
 	<link rel="stylesheet" href="../lib/normalize.css/normalize.css">
-	<link rel="stylesheet" href="../stylesheets/base.css">
+	<link rel="stylesheet" href="../lib/angular-material/angular-material.min.css">	
 </head>
 <body>
-	<div class="row">
-      <div id="intro" class="col s12 red lighten-1 z-depth-1">
-      	<h1 class="white-text">PokeApp</h1>
-      	<span class="white-text">only for pokemon coaches :)</span>
-      </div>		
-    </div>
-	<div ui-view class="view"></div>    	
+	<md-toolbar md-scroll-shrink>
+	    <div class="md-toolbar-tools md-whiteframe-z2">
+	      <h1>PokeApp</h1>	          
+	    </div>	     
+	</md-toolbar>
+		
+    <div ui-view class="view"></div>  	   	
 
 	<script src="../lib/angular/angular.min.js"></script>
-	<script src="../lib/angular-ui-router/release/angular-ui-router.min.js"></script>	
 	<script src="../lib/angular-animate/angular-animate.min.js"></script>
-	<script src="../lib/jquery/dist/jquery.min.js"></script>
-	<script src="../lib/materialize/dist/js/materialize.min.js"></script>
+	<script src="../lib/angular-aria/angular-aria.min.js"></script>
+	<script src="../lib/angular-material/angular-material.min.js"></script>
+	<script src="../lib/angular-ui-router/release/angular-ui-router.min.js"></script>			
 	<script src="../poke-app.js"></script>
 	<script src="../scripts/poke.ctrl.js"></script>
 	<script src="../scripts/poke.srv.js"></script>
