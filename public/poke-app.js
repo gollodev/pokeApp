@@ -1,11 +1,11 @@
 (function (angular, undefined) {
 	'use strict';
 	
-	angular.module('pokeApp', ['ui.router', 'ngAnimate'])
+	angular.module('pokeApp', ['ui.router', 'ngAnimate', 'ngMaterial'])
 	.config(ConfigFn);
-	ConfigFn.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
-	
-	function ConfigFn ($stateProvider, $urlRouterProvider, $locationProvider) {
+
+	ConfigFn.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider', '$mdThemingProvider'];	
+	function ConfigFn ($stateProvider, $urlRouterProvider, $locationProvider, $mdThemingProvider) {
 		$urlRouterProvider.otherwise('/index');
 		$stateProvider.state('home', {
 			resolve: {
@@ -19,5 +19,7 @@
 		  enabled: true,
 		  requireBase: false
 		});
+
+		$mdThemingProvider.theme('default').primaryPalette('red');
 	}
 })(angular);
