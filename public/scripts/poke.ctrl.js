@@ -1,4 +1,4 @@
-(function (angular, undefined) {
+(function () {
 	'use strict';
 
 	/**
@@ -22,11 +22,11 @@
 	* @param {[type]} $scope      [scope model]
 	* @param {[type]} getPokemons [dependency service]
 	*/
-	function PokeControllerFn ($scope, getPokemons) {
+	function PokeControllerFn ($scope, getPokemons) {			
 
 		getPokemons.rattata().then(function (data) {
-			console.log(data);							
-			$scope.rattatas = data;						
+			console.log(data);
+			$scope.rattatas = data;
 		}, function (error) {
 			console.log(error);
 		});	
@@ -501,4 +501,4 @@
 		});			
 	}
 		
-})(angular);
+})();
