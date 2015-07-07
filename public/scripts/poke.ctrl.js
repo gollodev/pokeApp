@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 (function () {
-=======
-(function() {
->>>>>>> af9bf631d15fb6994bc91c3222a87a11a810dc12
 	'use strict';
 
 	/**
@@ -504,9 +501,5 @@
 			console.log(error);
 		});			
 	}
-		
-<<<<<<< HEAD
 })();
-=======
-})();
->>>>>>> af9bf631d15fb6994bc91c3222a87a11a810dc12
+
