@@ -1,0 +1,28 @@
+{
+  "name": "pokeapp",
+  "description": "PokeApp client consuming data from pokeapi",
+  "main": "index.js",
+  "authors": [
+    "Jose Lopez"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "frontend",
+    "angular",
+    "pokemon"
+  ],
+  "homepage": "https://github.com/gollodev/pokeApp",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "angular-cache": "^4.5.0"
+  }
+}
