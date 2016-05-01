@@ -1,0 +1,24 @@
+{
+      "id": 6,
+      "image": "../images/pikachu.jpg",
+      "name": "Pikachu",
+      "type": [
+         "electric"
+      ],
+      "height": "1′4″ (0.41m)",
+      "weight": "13.2 lbs (6.0 kg)",
+      "species": "Mouse Pokémon",
+      "abilities": [
+         "Static",         
+         "Lightning Rod (hidden ability)"
+      ],
+      "stats": {
+         "hp": 35,
+         "attack": 55,
+         "defense": 40,
+         "sp.attack": 50,
+         "sp.def": 50,
+         "speed": 90,
+         "total": 320
+      }      
+}

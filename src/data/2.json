@@ -1,0 +1,25 @@
+{
+      "id": 2,
+      "image": "../images/charizard.jpg",
+      "name": "Charizard",
+      "type": [
+         "fire", 
+         "flying"
+      ],
+      "height": "5′7″ (1.70m)",
+      "weight": "199.5 lbs (90.5 kg)",
+      "species": "Flame Pokémon",
+      "abilities": [
+         "Blaze",
+         "Solar Power (hidden ability)"
+      ],
+      "stats": {
+         "hp": 78,
+         "attack": 84,
+         "defense": 78,
+         "sp.attack": 109,
+         "sp.def": 85,
+         "speed": 100,
+         "total": 534
+      }      
+}

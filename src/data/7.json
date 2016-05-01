@@ -1,0 +1,25 @@
+{
+      "id": 7,
+      "image": "../images/fearow.jpg",
+      "name": "Fearow",
+      "type": [
+         "normal",
+         "flying"
+      ],
+      "height": "3′11″ (1.19m)",
+      "weight": "83.8 lbs (38.0 kg)",
+      "species": "Beak Pokémon",
+      "abilities": [
+         "Keen Eye",         
+         "Sniper (hidden ability)"
+      ],
+      "stats": {
+         "hp": 65,
+         "attack": 90,
+         "defense": 65,
+         "sp.attack": 61,
+         "sp.def": 61,
+         "speed": 100,
+         "total": 442
+      }      
+}

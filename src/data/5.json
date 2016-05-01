@@ -1,0 +1,25 @@
+{
+      "id": 5,
+      "image": "../images/rattata.jpg",
+      "name": "Rattata",
+      "type": [
+         "normal"
+      ],
+      "height": "1′0″ (0.30m)",
+      "weight": "7.7 lbs (3.5 kg)",
+      "species": "Mouse Pokémon",
+      "abilities": [
+         "Guts",
+         "Run Away",
+         "Hustle (hidden ability)"
+      ],
+      "stats": {
+         "hp": 30,
+         "attack": 56,
+         "defense": 35,
+         "sp.attack": 25,
+         "sp.def": 35,
+         "speed": 72,
+         "total": 253
+      }      
+}

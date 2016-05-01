@@ -1,0 +1,25 @@
+{
+      "id": 10,
+      "image": "../images/alakazam.jpg",
+      "name": "Alakazam",
+      "type": [
+         "psychic"         
+      ],
+      "height": "4′11″ (1.50m)",
+      "weight": "105.8 lbs (48.0 kg)",
+      "species": "Psi Pokémon",
+      "abilities": [
+         "Inner Focus", 
+         "Synchronize",            
+         "Magic Guard (hidden ability)"
+      ],
+      "stats": {
+         "hp": 55,
+         "attack": 50,
+         "defense": 45,
+         "sp.attack": 135,
+         "sp.def": 95,
+         "speed": 120,
+         "total": 500
+      }      
+}

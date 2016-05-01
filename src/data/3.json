@@ -1,0 +1,24 @@
+{
+      "id": 3,
+      "image": "../images/squirtle.jpg",
+      "name": "Squirtle",
+      "type": [
+         "water"
+      ],
+      "height": "1′8″ (0.51m)",
+      "weight": "19.8 lbs (9.0 kg)",
+      "species": "Tiny Turtle Pokémon",
+      "abilities": [
+         "Torrent",
+         "Rain Dish (hidden ability)"
+      ],
+      "stats": {
+         "hp": 44,
+         "attack": 48,
+         "defense": 65,
+         "sp.attack": 50,
+         "sp.def": 64,
+         "speed": 43,
+         "total": 314
+      }      
+}

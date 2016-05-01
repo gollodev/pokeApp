@@ -1,0 +1,25 @@
+{
+    "id": 1,
+      "image": "../images/bulbasaur.jpg",
+      "name": "Bulbasaur",
+      "type": [
+         "grass", 
+         "poison"
+      ],
+      "height": "2′4″ (0.71m)",
+      "weight": "15.2 lbs (6.9 kg)",
+      "species": "Seed Pokémon",
+      "abilities": [
+         "Overgrow",
+         "Chlorophyl (hidden ability)"
+      ],
+      "stats": {
+         "hp": 45,
+         "attack": 49,
+         "defense": 49,
+         "sp.attack": 65,
+         "sp.def": 65,
+         "speed": 45,
+         "total": 318
+      }  
+}

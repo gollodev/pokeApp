@@ -1,0 +1,25 @@
+{
+      "id": 8,
+      "image": "../images/primeape.jpg",
+      "name": "Primeape",
+      "type": [
+         "fighting"
+      ],
+      "height": "3′3″ (0.99m)",
+      "weight": "70.5 lbs (32.0 kg)",
+      "species": "Beak Pokémon",
+      "abilities": [
+         "Anger Point",
+         "Vital Spirit",         
+         "Defiant (hidden ability)"
+      ],
+      "stats": {
+         "hp": 65,
+         "attack": 105,
+         "defense": 60,
+         "sp.attack": 60,
+         "sp.def": 70,
+         "speed": 95,
+         "total": 455
+      }      
+}

@@ -1,0 +1,26 @@
+{
+      "id": 4,
+      "image": "../images/pidgeot.jpg",
+      "name": "Pidgeot",
+      "type": [
+         "normal", 
+         "flying"
+      ],
+      "height": "4′11″ (1.50m)",
+      "weight": "87.1 lbs (39.5 kg)",
+      "species": "Bird Pokémon",
+      "abilities": [
+         "Keen Eye",
+         "Tangled Feet",
+         "Big Pecks (hidden ability)"
+      ],
+      "stats": {
+         "hp": 83,
+         "attack": 80,
+         "defense": 75,
+         "sp.attack": 70,
+         "sp.def": 70,
+         "speed": 101,
+         "total": 479
+      }      
+}
