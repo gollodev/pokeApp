@@ -1,0 +1,42 @@
+<div class="toolbar">
+	<div class="title-app">		
+		<span ng-click="vm.toHome()">Back to Home</span>
+	</div>		
+</div>
+
+<div class="pokemon">
+	<h1>{{ vm.pokemon.name }}</h1>
+	<div class="type">
+		<span>{{ vm.pokemon.type[0] }}</span>
+		<span>{{ vm.pokemon.type[1] }}</span>
+	</div>
+	<div class="pokemon-img">
+		<img ng-src="{{ vm.pokemon.image }}" alt="pokemon">
+	</div>
+	<div class="pokemon-details">
+		<div class="details">
+			<h3>Details</h3>
+			<ul>
+				<li><strong>Height:</strong> {{ vm.pokemon.height }}</li>
+				<li><strong>Weight:</strong> {{ vm.pokemon.weight }}</li>
+				<li><strong>Species:</strong> {{ vm.pokemon.species }}</li>
+				<span><strong>Abilities:</strong> </span>				
+				<ul>					
+					<li ng-repeat="ability in vm.pokemon.abilities"> {{ ability }}</li>	
+				</ul>			
+			</ul>
+		</div>
+		<div class="stats">
+			<h3>Stats</h3>
+			<ul>
+				<li><strong>Hp:</strong> {{ vm.pokemon.stats.hp }}</li>
+				<li><strong>Attack:</strong> {{ vm.pokemon.stats.attack }}</li>
+				<li><strong>Defense:</strong> {{ vm.pokemon.stats.defense }}</li>
+				<li><strong>Sp.Attack:</strong> {{ vm.pokemon.stats.sp.attack }}</li>
+				<li><strong>Sp.Defense:</strong> {{ vm.pokemon.stats.sp.defense }}</li>
+				<li><strong>Speed:</strong> {{ vm.pokemon.stats.speed }}</li>
+				<li><strong>Total:</strong> {{ vm.pokemon.stats.total }}</li>
+			</ul>
+		</div>
+	</div>	
+</div>

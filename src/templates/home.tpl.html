@@ -1,0 +1,26 @@
+<div class="toolbar">
+	<div class="title-app">
+		<span>PokeApp</span>		
+	</div>
+	<div class="input-search">
+		<input 
+			type="search" 
+			placeholder="Insert Pokemon Name"
+			ng-model="searchPokemon">
+	</div>	
+</div>
+	
+<div class="wrapper-card" ng-repeat="pokemon in vm.pokemons | filter: searchPokemon">
+	<div class="card" ui-sref="pokemon({id: pokemon.id })">	
+		<h2>{{ pokemon.name }}</h2>
+		<div class="container-img">
+			<img ng-src="{{ pokemon.image }}" alt="pokemon">
+		</div>		
+		<span>{{ pokemon.type[0] }}</span>
+		<span>{{ pokemon.type[1] }}</span>
+	</div>
+</div>
+	
+
+
+ 
