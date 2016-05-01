@@ -1,0 +1,83 @@
+.pokemon {
+	padding: 0 25px 0 25px;
+}
+
+.pokemon h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;	
+	color: #EF5350;
+}
+
+.pokemon .pokemon-img {
+	position: relative;
+	margin: 0 auto;
+	width: 25%;
+}
+
+.pokemon .pokemon-img img {
+	width: 350px;
+}
+
+.pokemon .type {
+	position: relative;
+	left: 12%;
+}
+
+.pokemon .type span {
+	position: relative;
+	bottom: 25px;
+	left: 35%;
+	background-color: #ef1f1b;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 25%;
+}
+
+.pokemon .pokemon-details {
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 50%;
+}
+
+.pokemon .pokemon-details .details {
+	width: 45%;
+	height: 210px;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0 10px;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+
+.pokemon .pokemon-details .details h3 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	color: #EF5350;
+}
+
+.pokemon .pokemon-details .details ul {
+	list-style: none;
+}
+
+.pokemon .pokemon-details .stats {
+	width: 45%;
+	height: 210px;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0 10px;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+
+.pokemon .pokemon-details .stats h3 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	color: #EF5350;
+}
+
+.pokemon .pokemon-details .stats ul {
+	list-style: none;
+}
