@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>PokeApp</title>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>PokeApp</title>    
+    <link rel="stylesheet" href="stylesheets/base.css">    
   </head>
   <body>
-    <h1>PokeApp</h1>
+  	<ui-view></ui-view>    
+	
+	<!-- Lib -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>    
+	
+	<!-- Source App -->
+  <script src="scripts/app.js"></script> 
+  <script src="scripts/routes.js"></script>   
+  <script src="scripts/constants.js"></script>
+  <script src="scripts/getPokemonService.js"></script>
+  <script src="scripts/HomeController.js"></script>
+  <script src="scripts/PokemonController.js"></script>
   </body>
 </html>
